@@ -22,7 +22,7 @@ public class RVInputValidator {
         
     }
     
-    public func validatedText() throws {
+    public func validatedInput() throws {
         let factory = RVValidatorFactory.validate(with: validatorType)
         try factory.validated(self.userInput)
     }

@@ -1,9 +1,9 @@
 # RVInputValidator
 
-[![CI Status](https://img.shields.io/travis/26132769/RVInputValidator.svg?style=flat)](https://travis-ci.org/26132769/RVInputValidator)
-[![Version](https://img.shields.io/cocoapods/v/RVInputValidator.svg?style=flat)](https://cocoapods.org/pods/RVInputValidator)
-[![License](https://img.shields.io/cocoapods/l/RVInputValidator.svg?style=flat)](https://cocoapods.org/pods/RVInputValidator)
-[![Platform](https://img.shields.io/cocoapods/p/RVInputValidator.svg?style=flat)](https://cocoapods.org/pods/RVInputValidator)
+ [![CI Status](https://img.shields.io/travis/26132769/RVInputValidator.svg?style=flat)](https://travis-ci.org/26132769/RVInputValidator)
+ [![Version](https://img.shields.io/cocoapods/v/RVInputValidator.svg?style=flat)](https://cocoapods.org/pods/RVInputValidator)
+ [![License](https://img.shields.io/cocoapods/l/RVInputValidator.svg?style=flat)](https://cocoapods.org/pods/RVInputValidator)
+ [![Platform](https://img.shields.io/cocoapods/p/RVInputValidator.svg?style=flat)](https://cocoapods.org/pods/RVInputValidator)
 
 ## Example
 
@@ -31,12 +31,12 @@ RVInputValidator is available under the MIT license. See the LICENSE file for mo
 ## Usage:
 
 ```
-        do {
-            let emailValidator =  RVInputValidator(input: "_Email", validationType: .email)
-            try emailValidator.validatedText()
-        }catch {
-            let error = error as? RVValidationError
-            print(error?.message ?? "")
-        }
+do {
+    let emailValidator =  RVInputValidator(input: "_Email", validationType: .email)
+    try emailValidator.validatedInput()
+}catch {
+    let error = error as? RVValidationError
+    print(error?.message ?? "")
+}
 ```
 # RVInputValidator
