@@ -27,3 +27,4 @@ pod 'RVInputValidator'
 ## License
 
 RVInputValidator is available under the MIT license. See the LICENSE file for more info.
+# RVInputValidator
