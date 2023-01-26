@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
   RVInputValidator is a input field validator where you can do validation for Email, mobile, password, confirm text, Username,and Required field.
   DESC
 
-  s.homepage         = 'https://github.com/26132769/RVInputValidator'
+  s.homepage         = 'https://github.com/veerChauhan/RVInputValidator.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ravi Ranjan' => 'r.ranjanchn@gmail.com' }
-  s.source           = { :git => 'https://github.com/26132769/RVInputValidator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/veerChauhan/RVInputValidator.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/b_banzara/'
 
   s.ios.deployment_target = '12.0'
 
-  s.source_files = 'RVInputValidator/Source/**/*'
+  s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'RVInputValidator' => ['RVInputValidator/Assets/*.png']
