@@ -1,0 +1,6 @@
+framework module RVInputValidator {
+  umbrella header "RVInputValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

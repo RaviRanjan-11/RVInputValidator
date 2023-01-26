@@ -1,0 +1,16 @@
+PODS:
+  - RVInputValidator (0.1.0)
+
+DEPENDENCIES:
+  - RVInputValidator (from `../`)
+
+EXTERNAL SOURCES:
+  RVInputValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RVInputValidator: 1a28ebaeb3c016db840fc7d09bd2fecddb185a82
+
+PODFILE CHECKSUM: fbbd5b41c61e7bab32800384bdf4a1a25831fd4d
+
+COCOAPODS: 1.11.3

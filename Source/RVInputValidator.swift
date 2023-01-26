@@ -1,5 +1,5 @@
 //
-//  RVValidator.swift
+//  RVInputValidator.swift
 //  NFTMarket
 //
 //  Created by Ravi Ranjan on 16/06/22.
@@ -12,7 +12,7 @@ protocol RVValidatorConvertibleProtocol {
     func validated(_ value: String) throws
 }
 
-public class RVValidator {
+public class RVInputValidator {
     var userInput: String
     var validatorType: RVValidatorType
     

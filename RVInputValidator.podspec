@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RVInputValidator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RVInputValidator.'
+  s.summary          = 'RVInputValidator is a input field validator'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,19 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  RVInputValidator is a input field validator where you can do validation for Email, mobile, password, confirm text, Username,and Required field.
+  DESC
 
   s.homepage         = 'https://github.com/26132769/RVInputValidator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '26132769' => 'r.ranjanchn@gmail.com' }
+  s.author           = { 'Ravi Ranjan' => 'r.ranjanchn@gmail.com' }
   s.source           = { :git => 'https://github.com/26132769/RVInputValidator.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.social_media_url = 'https://twitter.com/b_banzara/'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'RVInputValidator/Classes/**/*'
+  s.source_files = 'RVInputValidator/Source/**/*'
   
   # s.resource_bundles = {
   #   'RVInputValidator' => ['RVInputValidator/Assets/*.png']

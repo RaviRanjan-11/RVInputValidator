@@ -22,9 +22,21 @@ pod 'RVInputValidator'
 
 ## Author
 
-26132769, r.ranjanchn@gmail.com
+Ravi Ranjan, r.ranjanchn@gmail.com
 
 ## License
 
 RVInputValidator is available under the MIT license. See the LICENSE file for more info.
+
+## Usage:
+
+```
+        do {
+            let emailValidator =  RVInputValidator(input: "_Email", validationType: .email)
+            try emailValidator.validatedText()
+        }catch {
+            let error = error as? RVValidationError
+            print(error?.message ?? "")
+        }
+```
 # RVInputValidator

@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09002C6E2D65498B191E2B4C94CF7E4C /* Pods-RVInputValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B37EC4C7B6455C59C00E1A98715B404C /* Pods-RVInputValidator_Tests-dummy.m */; };
+		334136305FE76C4EFFA146FE60DC9EA8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323A0C3D2DEA2BD5D9E56AD02E8F3DA1 /* ReplaceMe.swift */; };
+		3B6E433FC35E4AFF863E045E697B98B7 /* Pods-RVInputValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 772FD2A277E6A7FC32D9E3BD2EEF1C1E /* Pods-RVInputValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64909F83CDC3D31457C3307864F9316C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		69CF950B24915ED8245F1B547F15A747 /* RVInputValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB09EB25FA2CC198F6B96AE06F39C609 /* RVInputValidator-dummy.m */; };
+		80DEA17571488C8A9C4FAB8CBAD83E2D /* RVInputValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85CD77880514449846EB09627A7E78C3 /* RVInputValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E82D72A09CDCE0F9AB60D0F5F18BEA /* Pods-RVInputValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2600E81FE2F4622F8180F78565F1AE6 /* Pods-RVInputValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A91FA74CE4A42D3FA5B5A04F4DC07919 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D1CAAA94F877486BE74BC5BBC8EBEB48 /* Pods-RVInputValidator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC77A754CB91943EDDF54906FB5AC1F /* Pods-RVInputValidator_Example-dummy.m */; };
+		F946333693DEDB3590BFCA09CFD3A137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA0BCE0729823A87008D60BE /* RVValidatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFC29823A87008D60BE /* RVValidatorType.swift */; };
+		FA0BCE0829823A87008D60BE /* RVValidatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFC29823A87008D60BE /* RVValidatorType.swift */; };
+		FA0BCE0929823A87008D60BE /* RVValidatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFC29823A87008D60BE /* RVValidatorType.swift */; };
+		FA0BCE0A29823A87008D60BE /* RVValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFD29823A87008D60BE /* RVValidationError.swift */; };
+		FA0BCE0B29823A87008D60BE /* RVValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFD29823A87008D60BE /* RVValidationError.swift */; };
+		FA0BCE0C29823A87008D60BE /* RVValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFD29823A87008D60BE /* RVValidationError.swift */; };
+		FA0BCE0D29823A87008D60BE /* RVValidatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFE29823A87008D60BE /* RVValidatorFactory.swift */; };
+		FA0BCE0E29823A87008D60BE /* RVValidatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFE29823A87008D60BE /* RVValidatorFactory.swift */; };
+		FA0BCE0F29823A87008D60BE /* RVValidatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCDFE29823A87008D60BE /* RVValidatorFactory.swift */; };
+		FA0BCE1029823A87008D60BE /* RVPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0029823A87008D60BE /* RVPasswordValidator.swift */; };
+		FA0BCE1129823A87008D60BE /* RVPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0029823A87008D60BE /* RVPasswordValidator.swift */; };
+		FA0BCE1229823A87008D60BE /* RVPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0029823A87008D60BE /* RVPasswordValidator.swift */; };
+		FA0BCE1329823A87008D60BE /* RVUsernameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0129823A87008D60BE /* RVUsernameValidator.swift */; };
+		FA0BCE1429823A87008D60BE /* RVUsernameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0129823A87008D60BE /* RVUsernameValidator.swift */; };
+		FA0BCE1529823A87008D60BE /* RVUsernameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0129823A87008D60BE /* RVUsernameValidator.swift */; };
+		FA0BCE1629823A87008D60BE /* RVEmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0229823A87008D60BE /* RVEmailValidator.swift */; };
+		FA0BCE1729823A87008D60BE /* RVEmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0229823A87008D60BE /* RVEmailValidator.swift */; };
+		FA0BCE1829823A87008D60BE /* RVEmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0229823A87008D60BE /* RVEmailValidator.swift */; };
+		FA0BCE1929823A87008D60BE /* RVMatchFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0329823A87008D60BE /* RVMatchFieldValidator.swift */; };
+		FA0BCE1A29823A87008D60BE /* RVMatchFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0329823A87008D60BE /* RVMatchFieldValidator.swift */; };
+		FA0BCE1B29823A87008D60BE /* RVMatchFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0329823A87008D60BE /* RVMatchFieldValidator.swift */; };
+		FA0BCE1C29823A87008D60BE /* RVMobileNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0429823A87008D60BE /* RVMobileNumberValidator.swift */; };
+		FA0BCE1D29823A87008D60BE /* RVMobileNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0429823A87008D60BE /* RVMobileNumberValidator.swift */; };
+		FA0BCE1E29823A87008D60BE /* RVMobileNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0429823A87008D60BE /* RVMobileNumberValidator.swift */; };
+		FA0BCE1F29823A87008D60BE /* RVRequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0529823A87008D60BE /* RVRequiredFieldValidator.swift */; };
+		FA0BCE2029823A87008D60BE /* RVRequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0529823A87008D60BE /* RVRequiredFieldValidator.swift */; };
+		FA0BCE2129823A87008D60BE /* RVRequiredFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0529823A87008D60BE /* RVRequiredFieldValidator.swift */; };
+		FA0BCE2229823A87008D60BE /* RVInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0629823A87008D60BE /* RVInputValidator.swift */; };
+		FA0BCE2329823A87008D60BE /* RVInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0629823A87008D60BE /* RVInputValidator.swift */; };
+		FA0BCE2429823A87008D60BE /* RVInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0BCE0629823A87008D60BE /* RVInputValidator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81EBD9249E3BECDC81BE5D84A42B2BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8165587FCFF9ED7FE623082B1DE66C0;
+			remoteInfo = "Pods-RVInputValidator_Example";
+		};
+		9E70EC59D7B5D00300D7C7DA0D86F547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCBC0F6CA1F93AA9CC465723B6CD7F2;
+			remoteInfo = RVInputValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035BADBB7C52A20FB71D36D6D355EF40 /* Pods-RVInputValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVInputValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19AFF6013476ED12AFB81839C96DDDDD /* RVInputValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVInputValidator.debug.xcconfig; sourceTree = "<group>"; };
+		237DF36AE37729FBF6D57614DECBBF4F /* Pods-RVInputValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RVInputValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2751BC9B860C2B06A6B1309C8787C8CC /* Pods-RVInputValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVInputValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		295B93DACC7B3663329E9392C32ED44A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		323A0C3D2DEA2BD5D9E56AD02E8F3DA1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RVInputValidator/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3B3BF1BEE7F81AE7236774602B1D5A27 /* RVInputValidator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RVInputValidator; path = RVInputValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402D043F4DD0219CA8A8F5C962B77152 /* RVInputValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVInputValidator-prefix.pch"; sourceTree = "<group>"; };
+		45FFB4841F54051D630E0376B3629D30 /* Pods-RVInputValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVInputValidator_Tests.modulemap"; sourceTree = "<group>"; };
+		48976E680107C37E45474C25CD61D19A /* Pods-RVInputValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVInputValidator_Example.modulemap"; sourceTree = "<group>"; };
+		4B8945D4818F109A01945E72EB6111C7 /* Pods-RVInputValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVInputValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE3737EAE6686894F8B5318D95E39E1 /* RVInputValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RVInputValidator-Info.plist"; sourceTree = "<group>"; };
+		64699C941E0999D932375D510987F90C /* RVInputValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RVInputValidator.modulemap; sourceTree = "<group>"; };
+		6D6B1B82FCDF8E0E0D00F0D487EF6F16 /* RVInputValidator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RVInputValidator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		772FD2A277E6A7FC32D9E3BD2EEF1C1E /* Pods-RVInputValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVInputValidator_Example-umbrella.h"; sourceTree = "<group>"; };
+		8328A7A07C5328CCA2BDBFFD790F7D6B /* Pods-RVInputValidator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RVInputValidator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		85CD77880514449846EB09627A7E78C3 /* RVInputValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVInputValidator-umbrella.h"; sourceTree = "<group>"; };
+		868A03BABF2E324B64F9668A1828AF5D /* Pods-RVInputValidator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVInputValidator_Example-Info.plist"; sourceTree = "<group>"; };
+		891178BE2B5EE06308F6EAA66E6F141F /* Pods-RVInputValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVInputValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8FC77A754CB91943EDDF54906FB5AC1F /* Pods-RVInputValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVInputValidator_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9C96DA3543BE8C1B69BF55ADEC50F1E /* Pods_RVInputValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVInputValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37EC4C7B6455C59C00E1A98715B404C /* Pods-RVInputValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RVInputValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		C1F7B25FACBAE908AEF5281FA089FFFD /* Pods-RVInputValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVInputValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6F4C29B795095CF04905154E830DD78 /* Pods-RVInputValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVInputValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D2600E81FE2F4622F8180F78565F1AE6 /* Pods-RVInputValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVInputValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D9861A22AD6BC34AA69B303604146CE0 /* RVInputValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVInputValidator.release.xcconfig; sourceTree = "<group>"; };
+		DB09EB25FA2CC198F6B96AE06F39C609 /* RVInputValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RVInputValidator-dummy.m"; sourceTree = "<group>"; };
+		DD3F0F8C7E1626FD309473850779C005 /* Pods-RVInputValidator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVInputValidator_Tests-Info.plist"; sourceTree = "<group>"; };
+		E85FB168C9BE21A582233F140F9F62FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		ED5F78EDAC12EF036865282B55E151BA /* Pods-RVInputValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVInputValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA0BCDFC29823A87008D60BE /* RVValidatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVValidatorType.swift; sourceTree = "<group>"; };
+		FA0BCDFD29823A87008D60BE /* RVValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVValidationError.swift; sourceTree = "<group>"; };
+		FA0BCDFE29823A87008D60BE /* RVValidatorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVValidatorFactory.swift; sourceTree = "<group>"; };
+		FA0BCE0029823A87008D60BE /* RVPasswordValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVPasswordValidator.swift; sourceTree = "<group>"; };
+		FA0BCE0129823A87008D60BE /* RVUsernameValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVUsernameValidator.swift; sourceTree = "<group>"; };
+		FA0BCE0229823A87008D60BE /* RVEmailValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVEmailValidator.swift; sourceTree = "<group>"; };
+		FA0BCE0329823A87008D60BE /* RVMatchFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVMatchFieldValidator.swift; sourceTree = "<group>"; };
+		FA0BCE0429823A87008D60BE /* RVMobileNumberValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVMobileNumberValidator.swift; sourceTree = "<group>"; };
+		FA0BCE0529823A87008D60BE /* RVRequiredFieldValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVRequiredFieldValidator.swift; sourceTree = "<group>"; };
+		FA0BCE0629823A87008D60BE /* RVInputValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RVInputValidator.swift; sourceTree = "<group>"; };
+		FE1EF13E3E60363A2033EF27DC562F65 /* Pods_RVInputValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVInputValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C3BADE984CC29EB3B03F3ABEE96D1CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64909F83CDC3D31457C3307864F9316C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92ED90B60A88A1CF77BDA97B236C9138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91FA74CE4A42D3FA5B5A04F4DC07919 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E93BDA6F5907F8E374202B43D5FCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F946333693DEDB3590BFCA09CFD3A137 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EAABF475E6E605F36D39AFCB647C38B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE0FAFFBB467BEA8FA09A8507ED503FC /* Pods-RVInputValidator_Example */,
+				70C62821AFC051A8D5E8BB8236ED061F /* Pods-RVInputValidator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4DA30996FB37EC11850E7E6ADA44A65D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE1EF13E3E60363A2033EF27DC562F65 /* Pods_RVInputValidator_Example.framework */,
+				A9C96DA3543BE8C1B69BF55ADEC50F1E /* Pods_RVInputValidator_Tests.framework */,
+				3B3BF1BEE7F81AE7236774602B1D5A27 /* RVInputValidator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BB6DFB82AD0F7D970C87F4F79BFE579 /* RVInputValidator */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BCDFB29823A74008D60BE /* Source */,
+				323A0C3D2DEA2BD5D9E56AD02E8F3DA1 /* ReplaceMe.swift */,
+				85D7134E6E51046DC34BC5B1D2B2BD52 /* Pod */,
+				7A3AC8E4702DD548CC7EE3FB1DB255E7 /* Support Files */,
+			);
+			name = RVInputValidator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		70C62821AFC051A8D5E8BB8236ED061F /* Pods-RVInputValidator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				45FFB4841F54051D630E0376B3629D30 /* Pods-RVInputValidator_Tests.modulemap */,
+				035BADBB7C52A20FB71D36D6D355EF40 /* Pods-RVInputValidator_Tests-acknowledgements.markdown */,
+				2751BC9B860C2B06A6B1309C8787C8CC /* Pods-RVInputValidator_Tests-acknowledgements.plist */,
+				B37EC4C7B6455C59C00E1A98715B404C /* Pods-RVInputValidator_Tests-dummy.m */,
+				DD3F0F8C7E1626FD309473850779C005 /* Pods-RVInputValidator_Tests-Info.plist */,
+				D2600E81FE2F4622F8180F78565F1AE6 /* Pods-RVInputValidator_Tests-umbrella.h */,
+				4B8945D4818F109A01945E72EB6111C7 /* Pods-RVInputValidator_Tests.debug.xcconfig */,
+				ED5F78EDAC12EF036865282B55E151BA /* Pods-RVInputValidator_Tests.release.xcconfig */,
+			);
+			name = "Pods-RVInputValidator_Tests";
+			path = "Target Support Files/Pods-RVInputValidator_Tests";
+			sourceTree = "<group>";
+		};
+		7A3AC8E4702DD548CC7EE3FB1DB255E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64699C941E0999D932375D510987F90C /* RVInputValidator.modulemap */,
+				DB09EB25FA2CC198F6B96AE06F39C609 /* RVInputValidator-dummy.m */,
+				5DE3737EAE6686894F8B5318D95E39E1 /* RVInputValidator-Info.plist */,
+				402D043F4DD0219CA8A8F5C962B77152 /* RVInputValidator-prefix.pch */,
+				85CD77880514449846EB09627A7E78C3 /* RVInputValidator-umbrella.h */,
+				19AFF6013476ED12AFB81839C96DDDDD /* RVInputValidator.debug.xcconfig */,
+				D9861A22AD6BC34AA69B303604146CE0 /* RVInputValidator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RVInputValidator";
+			sourceTree = "<group>";
+		};
+		7BD42753E11F2D7F900F4BE79632F830 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BB6DFB82AD0F7D970C87F4F79BFE579 /* RVInputValidator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		85D7134E6E51046DC34BC5B1D2B2BD52 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				295B93DACC7B3663329E9392C32ED44A /* LICENSE */,
+				E85FB168C9BE21A582233F140F9F62FF /* README.md */,
+				6D6B1B82FCDF8E0E0D00F0D487EF6F16 /* RVInputValidator.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CE0FAFFBB467BEA8FA09A8507ED503FC /* Pods-RVInputValidator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				48976E680107C37E45474C25CD61D19A /* Pods-RVInputValidator_Example.modulemap */,
+				8328A7A07C5328CCA2BDBFFD790F7D6B /* Pods-RVInputValidator_Example-acknowledgements.markdown */,
+				C1F7B25FACBAE908AEF5281FA089FFFD /* Pods-RVInputValidator_Example-acknowledgements.plist */,
+				8FC77A754CB91943EDDF54906FB5AC1F /* Pods-RVInputValidator_Example-dummy.m */,
+				237DF36AE37729FBF6D57614DECBBF4F /* Pods-RVInputValidator_Example-frameworks.sh */,
+				868A03BABF2E324B64F9668A1828AF5D /* Pods-RVInputValidator_Example-Info.plist */,
+				772FD2A277E6A7FC32D9E3BD2EEF1C1E /* Pods-RVInputValidator_Example-umbrella.h */,
+				891178BE2B5EE06308F6EAA66E6F141F /* Pods-RVInputValidator_Example.debug.xcconfig */,
+				C6F4C29B795095CF04905154E830DD78 /* Pods-RVInputValidator_Example.release.xcconfig */,
+			);
+			name = "Pods-RVInputValidator_Example";
+			path = "Target Support Files/Pods-RVInputValidator_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7BD42753E11F2D7F900F4BE79632F830 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4DA30996FB37EC11850E7E6ADA44A65D /* Products */,
+				1EAABF475E6E605F36D39AFCB647C38B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA0BCDFB29823A74008D60BE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BCDFD29823A87008D60BE /* RVValidationError.swift */,
+				FA0BCE0629823A87008D60BE /* RVInputValidator.swift */,
+				FA0BCDFE29823A87008D60BE /* RVValidatorFactory.swift */,
+				FA0BCDFC29823A87008D60BE /* RVValidatorType.swift */,
+				FA0BCDFF29823A87008D60BE /* ValidatorResultFactory */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		FA0BCDFF29823A87008D60BE /* ValidatorResultFactory */ = {
+			isa = PBXGroup;
+			children = (
+				FA0BCE0029823A87008D60BE /* RVPasswordValidator.swift */,
+				FA0BCE0129823A87008D60BE /* RVUsernameValidator.swift */,
+				FA0BCE0229823A87008D60BE /* RVEmailValidator.swift */,
+				FA0BCE0329823A87008D60BE /* RVMatchFieldValidator.swift */,
+				FA0BCE0429823A87008D60BE /* RVMobileNumberValidator.swift */,
+				FA0BCE0529823A87008D60BE /* RVRequiredFieldValidator.swift */,
+			);
+			path = ValidatorResultFactory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DBFC2A3CBD6897D501FEEE0D505A2C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80DEA17571488C8A9C4FAB8CBAD83E2D /* RVInputValidator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BC5F7D28B1CBB7B820EC52FF670BEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E82D72A09CDCE0F9AB60D0F5F18BEA /* Pods-RVInputValidator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991519E9CFC095A34E304EFDD7671039 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6E433FC35E4AFF863E045E697B98B7 /* Pods-RVInputValidator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2BCBC0F6CA1F93AA9CC465723B6CD7F2 /* RVInputValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D5D5F41099AD225DCAD2BCD003BF6AA /* Build configuration list for PBXNativeTarget "RVInputValidator" */;
+			buildPhases = (
+				3DBFC2A3CBD6897D501FEEE0D505A2C4 /* Headers */,
+				3C165BA748F0B11E2F9245650A3CC7C5 /* Sources */,
+				99E93BDA6F5907F8E374202B43D5FCD9 /* Frameworks */,
+				69D611CF1FD021C0DB70190583A6D0DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RVInputValidator;
+			productName = RVInputValidator;
+			productReference = 3B3BF1BEE7F81AE7236774602B1D5A27 /* RVInputValidator */;
+			productType = "com.apple.product-type.framework";
+		};
+		B89A0E118E4917B1CC292CFEFA9E3847 /* Pods-RVInputValidator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D17D61128BDC7CCA20818017DE9F7124 /* Build configuration list for PBXNativeTarget "Pods-RVInputValidator_Tests" */;
+			buildPhases = (
+				66BC5F7D28B1CBB7B820EC52FF670BEA /* Headers */,
+				7DD34C19E7CBE5564FA391502824DF05 /* Sources */,
+				3C3BADE984CC29EB3B03F3ABEE96D1CF /* Frameworks */,
+				AF2346E607382FAA1E45CB95B38EC43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0777418EEC56A42336D6668974A81034 /* PBXTargetDependency */,
+			);
+			name = "Pods-RVInputValidator_Tests";
+			productName = Pods_RVInputValidator_Tests;
+			productReference = A9C96DA3543BE8C1B69BF55ADEC50F1E /* Pods_RVInputValidator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8165587FCFF9ED7FE623082B1DE66C0 /* Pods-RVInputValidator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A92CE5DEFC4F1DE6D0F1227802A6593 /* Build configuration list for PBXNativeTarget "Pods-RVInputValidator_Example" */;
+			buildPhases = (
+				991519E9CFC095A34E304EFDD7671039 /* Headers */,
+				6015C99EADE51F7706B8CE46BC7F989C /* Sources */,
+				92ED90B60A88A1CF77BDA97B236C9138 /* Frameworks */,
+				43C41952BA8390D166D9007DCEF79A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59D31DA614BD8F61DF96B0287D46E15 /* PBXTargetDependency */,
+			);
+			name = "Pods-RVInputValidator_Example";
+			productName = Pods_RVInputValidator_Example;
+			productReference = FE1EF13E3E60363A2033EF27DC562F65 /* Pods_RVInputValidator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B89A0E118E4917B1CC292CFEFA9E3847 = {
+						LastSwiftMigration = 1420;
+					};
+					C8165587FCFF9ED7FE623082B1DE66C0 = {
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4DA30996FB37EC11850E7E6ADA44A65D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8165587FCFF9ED7FE623082B1DE66C0 /* Pods-RVInputValidator_Example */,
+				B89A0E118E4917B1CC292CFEFA9E3847 /* Pods-RVInputValidator_Tests */,
+				2BCBC0F6CA1F93AA9CC465723B6CD7F2 /* RVInputValidator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C41952BA8390D166D9007DCEF79A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D611CF1FD021C0DB70190583A6D0DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2346E607382FAA1E45CB95B38EC43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C165BA748F0B11E2F9245650A3CC7C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334136305FE76C4EFFA146FE60DC9EA8 /* ReplaceMe.swift in Sources */,
+				69CF950B24915ED8245F1B547F15A747 /* RVInputValidator-dummy.m in Sources */,
+				FA0BCE0929823A87008D60BE /* RVValidatorType.swift in Sources */,
+				FA0BCE1529823A87008D60BE /* RVUsernameValidator.swift in Sources */,
+				FA0BCE0C29823A87008D60BE /* RVValidationError.swift in Sources */,
+				FA0BCE1B29823A87008D60BE /* RVMatchFieldValidator.swift in Sources */,
+				FA0BCE0F29823A87008D60BE /* RVValidatorFactory.swift in Sources */,
+				FA0BCE1229823A87008D60BE /* RVPasswordValidator.swift in Sources */,
+				FA0BCE2129823A87008D60BE /* RVRequiredFieldValidator.swift in Sources */,
+				FA0BCE1829823A87008D60BE /* RVEmailValidator.swift in Sources */,
+				FA0BCE2429823A87008D60BE /* RVInputValidator.swift in Sources */,
+				FA0BCE1E29823A87008D60BE /* RVMobileNumberValidator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6015C99EADE51F7706B8CE46BC7F989C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BCE1329823A87008D60BE /* RVUsernameValidator.swift in Sources */,
+				FA0BCE0729823A87008D60BE /* RVValidatorType.swift in Sources */,
+				FA0BCE1F29823A87008D60BE /* RVRequiredFieldValidator.swift in Sources */,
+				FA0BCE1029823A87008D60BE /* RVPasswordValidator.swift in Sources */,
+				FA0BCE0D29823A87008D60BE /* RVValidatorFactory.swift in Sources */,
+				FA0BCE1629823A87008D60BE /* RVEmailValidator.swift in Sources */,
+				FA0BCE1C29823A87008D60BE /* RVMobileNumberValidator.swift in Sources */,
+				FA0BCE2229823A87008D60BE /* RVInputValidator.swift in Sources */,
+				FA0BCE1929823A87008D60BE /* RVMatchFieldValidator.swift in Sources */,
+				D1CAAA94F877486BE74BC5BBC8EBEB48 /* Pods-RVInputValidator_Example-dummy.m in Sources */,
+				FA0BCE0A29823A87008D60BE /* RVValidationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD34C19E7CBE5564FA391502824DF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0BCE1429823A87008D60BE /* RVUsernameValidator.swift in Sources */,
+				FA0BCE0829823A87008D60BE /* RVValidatorType.swift in Sources */,
+				FA0BCE2029823A87008D60BE /* RVRequiredFieldValidator.swift in Sources */,
+				FA0BCE1129823A87008D60BE /* RVPasswordValidator.swift in Sources */,
+				FA0BCE0E29823A87008D60BE /* RVValidatorFactory.swift in Sources */,
+				FA0BCE1729823A87008D60BE /* RVEmailValidator.swift in Sources */,
+				FA0BCE1D29823A87008D60BE /* RVMobileNumberValidator.swift in Sources */,
+				FA0BCE2329823A87008D60BE /* RVInputValidator.swift in Sources */,
+				FA0BCE1A29823A87008D60BE /* RVMatchFieldValidator.swift in Sources */,
+				09002C6E2D65498B191E2B4C94CF7E4C /* Pods-RVInputValidator_Tests-dummy.m in Sources */,
+				FA0BCE0B29823A87008D60BE /* RVValidationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0777418EEC56A42336D6668974A81034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RVInputValidator_Example";
+			target = C8165587FCFF9ED7FE623082B1DE66C0 /* Pods-RVInputValidator_Example */;
+			targetProxy = 81EBD9249E3BECDC81BE5D84A42B2BFB /* PBXContainerItemProxy */;
+		};
+		D59D31DA614BD8F61DF96B0287D46E15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RVInputValidator;
+			target = 2BCBC0F6CA1F93AA9CC465723B6CD7F2 /* RVInputValidator */;
+			targetProxy = 9E70EC59D7B5D00300D7C7DA0D86F547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06550C0176E7C7D187487902724D7C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5F78EDAC12EF036865282B55E151BA /* Pods-RVInputValidator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVInputValidator_Tests/Pods-RVInputValidator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVInputValidator_Tests/Pods-RVInputValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		06AF4392ED6A547409BB9CD55FBAF719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8945D4818F109A01945E72EB6111C7 /* Pods-RVInputValidator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVInputValidator_Tests/Pods-RVInputValidator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVInputValidator_Tests/Pods-RVInputValidator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		455D5AAD80289614F68C444E2DCE68CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891178BE2B5EE06308F6EAA66E6F141F /* Pods-RVInputValidator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVInputValidator_Example/Pods-RVInputValidator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVInputValidator_Example/Pods-RVInputValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A36BB44736962473724440417D489C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F4C29B795095CF04905154E830DD78 /* Pods-RVInputValidator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVInputValidator_Example/Pods-RVInputValidator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVInputValidator_Example/Pods-RVInputValidator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC4F78D9CB6CBE7E7C385591808D4A66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9861A22AD6BC34AA69B303604146CE0 /* RVInputValidator.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVInputValidator/RVInputValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVInputValidator/RVInputValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RVInputValidator/RVInputValidator.modulemap";
+				PRODUCT_MODULE_NAME = RVInputValidator;
+				PRODUCT_NAME = RVInputValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F50593D480E7A6CC17CF26BCCBB3E840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19AFF6013476ED12AFB81839C96DDDDD /* RVInputValidator.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVInputValidator/RVInputValidator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVInputValidator/RVInputValidator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RVInputValidator/RVInputValidator.modulemap";
+				PRODUCT_MODULE_NAME = RVInputValidator;
+				PRODUCT_NAME = RVInputValidator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A92CE5DEFC4F1DE6D0F1227802A6593 /* Build configuration list for PBXNativeTarget "Pods-RVInputValidator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455D5AAD80289614F68C444E2DCE68CE /* Debug */,
+				A36BB44736962473724440417D489C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D5D5F41099AD225DCAD2BCD003BF6AA /* Build configuration list for PBXNativeTarget "RVInputValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50593D480E7A6CC17CF26BCCBB3E840 /* Debug */,
+				AC4F78D9CB6CBE7E7C385591808D4A66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D17D61128BDC7CCA20818017DE9F7124 /* Build configuration list for PBXNativeTarget "Pods-RVInputValidator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AF4392ED6A547409BB9CD55FBAF719 /* Debug */,
+				06550C0176E7C7D187487902724D7C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
