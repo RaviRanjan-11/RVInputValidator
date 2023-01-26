@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'RVInputValidator_Example' do
+  pod 'RVInputValidator', :path => '../'
+
+  target 'RVInputValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
