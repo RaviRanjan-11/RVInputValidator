@@ -17,7 +17,7 @@ class RVMatchFieldValidator: RVValidatorConvertibleProtocol {
     func validated(_ value: String) throws {
         
         guard (value == secoundField) else{
-            throw RVValidationError(fieldName + " does not match")
+            throw RVValidationError(fieldName + " does not matched")
         }
         
     }
